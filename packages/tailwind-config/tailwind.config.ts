@@ -4,7 +4,7 @@ import type { Config } from 'tailwindcss';
 const config: Omit<Config, 'content'> = {
   content: [
     './packages/ui/**/*.{js,ts,jsx,tsx}',
-    './apps/docs/stories/**/*.{js,ts,jsx,tsx}',
+    './apps/storybook/stories/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {},
 };
